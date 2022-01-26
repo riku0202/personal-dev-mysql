@@ -1,6 +1,7 @@
 version: "3"
 services:
   mysql:
+    platform: linux/x86_64
     build: ./mysql/
     volumes:
       - ./mysql/initdb.d:/docker-entrypoint-initdb.d #初期処理のフォルダ。初回起動のみでおｋ
