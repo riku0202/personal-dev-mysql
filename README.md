@@ -8,7 +8,7 @@
 docker-compose up -d
 ```
 
-## 接続方法
+## mysql 接続方法
 コンテナに入る
 ```zsh
 docker exec -it mysqlapp bash
